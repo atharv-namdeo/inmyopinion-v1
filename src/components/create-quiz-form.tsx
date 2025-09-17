@@ -27,7 +27,7 @@ export function CreateQuizForm() {
   
   const [quizId, setQuizId] = useState<string | null>(null);
 
-  const [quizTitle, setQuizTitle] = useState('My Feedback Quiz');
+  const [quizTitle, setQuizTitle] = useState('My IMO Quiz');
   const [questions, setQuestions] = useState<Question[]>([]);
   const [newQuestionText, setNewQuestionText] = useState('');
   const [newQuestionType, setNewQuestionType] = useState<'multiple-choice' | 'sliding-bar'>('multiple-choice');
